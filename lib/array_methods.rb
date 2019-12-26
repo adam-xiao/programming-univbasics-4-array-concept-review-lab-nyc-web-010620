@@ -25,7 +25,7 @@ def find_min_value(array)
   #sorted_array.first
   min = 0
   array.length.times do |index|
-    if index == 0
+    if index == 0 #Sets min to a(any) number in order to start comparisons
       min = array[index]
     else
       if array[index] < min
